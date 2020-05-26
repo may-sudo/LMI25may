@@ -1,0 +1,123 @@
+
+
+body{
+
+  background-color: rgb(100,100,255);
+}
+
+h1{
+
+font-size: 45px;
+background-color: black;
+width:100vw;
+height:5vw;
+color:white;
+text-align: center;
+margin-top:2vw;
+font-family: "Comic Sans MS", cursive;
+text-shadow: 5px 5px blue;
+
+
+
+}
+
+nav{
+  background-color: white;
+  width:100vw;
+  text-align: center;
+  margin-top:3vw;
+
+
+}
+nav a{
+  background-color: black;
+  color:white;
+  text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+}
+nav a:hover{
+  background-color: yellow;
+  color:blue;
+}
+
+main{
+  margin-top: 1vw;
+  width: 100vw;
+  height:50vw;
+  background: url("inteligencia.png") repeat-x;
+  background-size: 100px 100px;
+
+}
+main section{
+position: absolute;
+margin-top: 7vw;
+z-index: 1;
+
+}
+main section:hover{
+  z-index: 2;
+}
+#primer_bloque{
+  border: solid blue 7px;
+  width: 42vw;
+  height: 13vw;
+  margin-left: 5vw;
+  padding: 3vw;
+  padding-top: 0;
+
+  background: white url("inteligencia.png") right repeat-y ;
+  background-size: 100px 100px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 115%;
+   letter-spacing: 0.5vw;
+   text-decoration: underline;
+}
+#tercer_bloque{
+  border: dotted red 4px;
+  height: 15vw;
+  width: 35%;
+  background-color: rgb(50,150,150);
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 24%;
+  margin-left: 60%;
+  font-size: 120%;
+}
+#segundo_bloque{
+  border: solid yellow 10px;
+  color:blue;
+  letter-spacing:0.3vw;
+  width: 35vw;
+  height: 15vw;
+  background-color: rgb(150,150,240);
+  margin-left:30%;
+  margin-top: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+}
+
+#cuarto_bloque{
+  background-color: rgb(190,190,100);
+  width: 70vw;
+  height: 8vw;
+  color:blue;
+  margin-top: 42vw;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#cuarto_bloque ul{
+  list-style-type:upper-roman;
+}
+
+footer{
+  background-color: rgb(0,0,100);
+  color:white;
+  width: 100vw;
+  text-align: center;
+  line-height: 110%;
+  height: 2vw;
+
+}
